@@ -12,9 +12,9 @@ function App() {
         <BrowserRouter>
             <FormContext>
                   <Routes>
-                        <Route path='/' element={<MoviesContainer/>}/>
-                        <Route path='/movies' element={<MoviesContainer/>}/>
-                        <Route path='/movie/:detalleMovies' element={<MoviesDetailContainer/>}/>
+                        <Route path='/react-peliculas' element={<MoviesContainer/>}/>
+                        <Route path='/react-peliculas/movies' element={<MoviesContainer/>}/>
+                        <Route path='/react-peliculas/movie/:detalleMovies' element={<MoviesDetailContainer/>}/>
                   </Routes>
             </FormContext>
       </BrowserRouter>        

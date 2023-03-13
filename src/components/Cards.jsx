@@ -5,7 +5,7 @@ const URL__IMAGE = "https://image.tmdb.org/t/p/original"
 const Cards = (props) => {
     return (
         <>
-         <Link to={`/movie/${props.id}`}>
+         <Link to={`/react-peliculas/movie/${props.id}`}>
             <div className='movies__container'>
                <img src={`${URL__IMAGE}${props.poster || props.backdrop}`} alt={props.title || props.name} />
                <h6 className='movies__title'>{props.title || props.name}</h6>
