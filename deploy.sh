@@ -20,12 +20,8 @@ git checkout -B main
 git add -A
 git commit -m 'deploy'
 
-# if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
+# if you are deploying to https://DelCampoFabian.github.io
+# git push -f git@github.com:DelCampoFabian/DelCampoFabian.github.io.git main
 
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
+# if you are deploying to https://DelCampoFabian.github.io/<REPO>
 # git push -f git@github.com:DelCampoFabian/react-peliculas.git main:gh-pages
-
-cd -
-
-Modificar la línea de gitpush
