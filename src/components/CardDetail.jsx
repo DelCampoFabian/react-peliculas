@@ -24,7 +24,7 @@ const CardDetail = ({detalle, duration}) => {
         </div>
     
         <div className='detail__back'>
-            <Link to="/movies">{<MdArrowBackIos/>}</Link>
+            <Link to="/react-peliculas">{<MdArrowBackIos/>}</Link>
         </div>
     </section>
   )

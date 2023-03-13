@@ -13,7 +13,6 @@ function App() {
             <FormContext>
                   <Routes>
                         <Route path='/react-peliculas' element={<MoviesContainer/>}/>
-                        <Route path='/react-peliculas/movies' element={<MoviesContainer/>}/>
                         <Route path='/react-peliculas/movie/:detalleMovies' element={<MoviesDetailContainer/>}/>
                   </Routes>
             </FormContext>
